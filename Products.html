@@ -1,0 +1,854 @@
+<!DOCTYPE html>
+<html>
+<head><title>PRODUCTS</title>
+<style>
+      .rec {
+        position: absolute;
+        top: 0px;
+        left: 0px;
+      }
+      .logo {
+        position: absolute;
+        top: 14px;
+        left: 35px;
+      }
+        .first-txt {
+            position: absolute;
+            top: 0px;
+            left: 326px;
+		font-size: 15.25px;
+        }
+  
+        .second-txt {
+            position: absolute;
+            top: 0px;
+            left: 420px;
+font-size: 15.25px;
+        }
+		 .third-txt {
+            position: absolute;
+            top: 0px;
+            left: 555px;
+font-size: 15.25px;
+        }
+		 .fourth-txt {
+            position: absolute;
+            top: 0px;
+            left: 684px;
+font-size: 15.25px;
+        }
+		 .fifth-txt {
+            position: absolute;
+            top: 0px;
+            left: 824px;
+font-size: 15.25px;
+        }
+		 .sixth-txt {
+            position: absolute;
+            top: 0px;
+            left: 928px;
+font-size: 15.25px;
+        }
+		 .seventh-txt {
+            position: absolute;
+            top: 0px;
+            left: 1103px;
+font-size: 15.25px;
+        }
+		 .eighth-txt {
+            position: absolute;
+            top: 0px;
+            left: 1242px;
+font-size: 15.25px;
+        }
+.bg18 {
+            position: absolute;
+            top: 68px;
+            left: 0px;
+        }
+
+{box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 100%;
+  position: absolute;
+  left: 0px;
+  top: 900px;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(255,255,255,0.5);
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+
+.share {
+	position: absolute;
+	top: 341px;
+	left: 1318px;
+  writing-mode: vertical-lr;
+font-weight: lighter;
+}
+
+.rect{
+	position: absolute;
+	top: 413px;
+	left: 1350px;
+	}
+.fb{
+	position: absolute;
+	top: 498px;
+	left: 1345px;
+
+  -webkit-transform:rotate(90deg);
+  -moz-transform: rotate(90deg);
+  -ms-transform: rotate(90deg);
+  -o-transform: rotate(90deg);
+  transform: rotate(90deg);
+	}
+
+.yt{
+	position: absolute;
+	top: 525px;
+	left: 1342px;
+	}
+
+.insta{
+	position: absolute;
+	top: 563px;
+	left: 1342px;
+	}
+
+.experience{
+position: absolute;
+left: 40px;
+top: 500px;
+font-size: 90px;
+font-weight= bold;
+}
+
+
+.standard{
+position: absolute;
+left: 0px;
+top: 1830px;
+}
+
+.st1{
+position: absolute;
+left: 33px;
+top: 1850px;
+font-size: 55px;
+font-weight: bold;
+}
+
+.st2{
+position: absolute;
+left: 33px;
+top: 1960px;
+font-size: 25px;
+line-height: 35px;
+font-weight: lighter;
+}
+
+.st3{
+position: absolute;
+left: 86px;
+top: 2150px;
+font-size: 28px;
+line-height: 36px;
+font-weight: bold;
+text-transform: uppercase;
+text-align: center;
+}
+
+
+
+
+.st4 {
+position: absolute;
+	top: 2260px;
+	left: 217px;
+  background-color: white;
+  border: none;
+  padding: 7px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+
+.bg20 {
+position: absolute;
+	top: 2400px;
+	left: 0px;
+}
+
+
+
+.bg20t1 {
+position: absolute;
+	top: 2455px;
+	left: 544px;
+  font-size: 89px;
+font-weight: bold;
+letter-spacing: 10px;
+}
+
+.bg20t2 {
+position: absolute;
+	top: 2420px;
+	left: 530px;
+  font-size: 17px;
+font-weight: lighter;
+line-height: 29px;
+text-align: center;
+}
+
+
+.rec8 {
+position: absolute;
+	top: 2570px;
+	left: 125px;
+}
+
+.rec8b {
+position: absolute;
+	top: 2570px;
+	left: 844px;
+}
+
+
+.bg20t3 {
+position: absolute;
+	top: 2640px;
+	left: 190px;
+  font-size: 20px;
+font-weight: lighter;
+line-height: 35px;
+text-align: right;
+}
+
+.bg20t4 {
+position: absolute;
+	top: 2750px;
+	left: 165px;
+  font-size: 20px;
+font-weight: lighter;
+line-height: 35px;
+text-align: right;
+}
+
+.bg20t5 {
+position: absolute;
+	top: 2930px;
+	left: 185px;
+  font-size: 20px;
+font-weight: lighter;
+line-height: 35px;
+text-align: right;
+}
+
+
+
+.bg20t6 {
+position: absolute;
+	top: 3070px;
+	left: 155px;
+  font-size: 20px;
+font-weight: lighter;
+line-height: 35px;
+text-align: right;
+}
+
+.bg20t7 {
+position: absolute;
+	top: 2640px;
+	left: 926px;
+  font-size: 20px;
+font-weight: lighter;
+line-height: 35px;
+}
+
+.bg20t8 {
+position: absolute;
+	top: 2815px;
+	left: 926px;
+  font-size: 20px;
+font-weight: lighter;
+line-height: 35px;
+}
+
+.bg20t9 {
+position: absolute;
+	top: 3030px;
+	left: 926px;
+  font-size: 20px;
+font-weight: lighter;
+line-height: 35px;
+}
+
+.bg20t10 {
+position: absolute;
+	top: 3145px;
+	left: 926px;
+  font-size: 20px;
+font-weight: lighter;
+
+}
+.producta{
+position: absolute;
+left:0px;
+top:3320px;
+}
+
+.box6{
+position: absolute;
+left:0px;
+top:4015px;
+}
+
+
+.productat1{
+position: absolute;
+left:30px;
+top:4015px;
+  font-size: 40px;
+font-weight: bold;
+}
+
+.productat2{
+position: absolute;
+left:30px;
+top:4060px;
+  font-size: 15px;
+font-weight: lighter;
+line-height: 20px;
+}
+
+
+
+
+
+
+.productb{
+position: absolute;
+left:0px;
+top:4250px;
+}
+
+.box7{
+position: absolute;
+left:682px;
+top:4945px;
+} 
+.productbt1{
+position: absolute;
+left:880px;
+top:4945px;
+  font-size: 40px;
+font-weight: bold;
+text-align: right;
+}
+
+
+
+.productbt2{
+position: absolute;
+left:805px;
+top:4990px;
+  font-size: 15px;
+font-weight: lighter;
+line-height: 20px;
+text-align: right;
+}
+
+.outdoor{
+position: absolute;
+top: 4250px;
+left: 0px;
+}
+
+.spaces{
+position: absolute;
+top: 4200px;
+left: 50px;
+font-size: 92px;
+font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+.greybg{
+	position: absolute;
+	top: 5125px;
+	left: 0px;
+	}
+.grey2bg{
+	position: absolute;
+	top: 5402px;
+	left: 0px;
+	}
+.redbg{
+	position: absolute;
+	top: 5218px;
+	left: 117px;
+	}
+
+
+
+
+.ft1 {
+            position: absolute;
+            top: 5183px;
+            left: 181px;
+		font-size: 15.25px;
+        }
+  
+.ft2 {
+            position: absolute;
+            top: 5183px;
+            left: 274px;
+font-size: 15.25px;
+        }
+.ft3 {
+            position: absolute;
+            top: 5183px;
+            left: 409px;
+font-size: 15.25px;
+        }
+
+.ft4 {
+            position: absolute;
+            top: 5183px;
+            left: 538px;
+font-size: 15.25px;
+        }
+		
+.ft5 {
+            position: absolute;
+            top: 5183px;
+            left: 678px;
+font-size: 15.25px;
+        }
+
+.ft6{
+            position: absolute;
+            top: 5183px;
+            left: 777px;
+font-size: 15.25px;
+        }
+		 
+.ft7 {
+            position: absolute;
+            top: 5183px;
+            left: 957px;
+font-size: 15.25px;
+        }
+
+.ft8 {
+            position: absolute;
+            top: 5183px;
+            left: 1096px;
+font-size: 15.25px;
+        }
+.flogo {
+            position: absolute;
+            top: 5335px;
+            left: 235px;
+scale: 0.7;
+        }
+
+.fb2{
+	position: absolute;
+	top: 5450px;
+	left: 278px;
+	}
+
+.yt2{
+	position: absolute;
+	top: 5450px;
+	left: 324px;
+	}
+
+.insta2{
+	position: absolute;
+	top: 5450px;
+	left: 301px;
+	}
+.line3{
+	position: absolute;
+	top: 5327px;
+	left: 419px;
+	}
+.line4{
+	position: absolute;
+	top: 5327px;
+	left: 920px;
+	}
+.ft9{
+	position: absolute;
+	top: 5323px;
+	left: 452px;
+	font-size: 14px;
+	font-weight: lighter;
+	text-align:center;
+	line-height: 23px;
+	}
+.ft10{
+	position: absolute;
+	top: 5318px;
+	left: 949px;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 20px;
+	}
+.ft11{
+	position: absolute;
+	top: 5378px;
+	left: 949px;
+	font-size: 14px;
+	font-weight: lighter;
+	line-height: 20px;
+	}
+.ft12{
+	position: absolute;
+	top: 5418px;
+	left: 949px;
+	font-size: 14px;
+	font-weight: lighter;
+	}
+.ft13{
+	position: absolute;
+	top: 5618px;
+	left: 26px;
+	font-size: 12px;
+	font-weight: lighter;
+	}
+.ft14{
+	position: absolute;
+	top: 5618px;
+	left: 1295px;
+	font-size: 12px;
+	font-weight: lighter;
+	}
+.ft15{
+	position: absolute;
+	top: 5618px;
+	left: 1205px;
+	font-size: 12px;
+	font-weight: lighter;
+	}
+.heart{
+	position: absolute;
+	top: 5650px;
+	left: 1277px;
+scale: 1.5;
+	}
+
+
+
+
+
+
+
+
+</style>
+</head>
+<body bgcolor="white">
+<div>
+  <img class="rec" src="images/rec.jpg" alt="rec" />
+<a href="Home.html">
+	<img class="logo" src="images/logo.png" alt="logo" />
+</a>
+	   <h5 class="first-txt "><a style="text-decoration: none" href="Home.html"><font face="Cocogoose" color="black">HOME</font></a></h5>
+        <h5 class="second-txt"><a style="text-decoration: none" href="about us.html"><font face="Cocogoose" color="black">ABOUT US</font></a></h5>
+	    <h5 class="third-txt"><a style="text-decoration: none" href="Services.html"> <font face="Cocogoose"  color="black">SERVICES</font></a></h5>
+	    <h5 class="fourth-txt"><a style="text-decoration: none" href="Products.html"><font face="Cocogoose" color="black">PRODUCTS</font></a></h5>
+	    <h5 class="fifth-txt"><a style="text-decoration: none" href="Blogs.html"><font face="Cocogoose" color="black">BLOGS</font></a></h5>
+	    <h5 class="sixth-txt"><a style="text-decoration: none" href="Testimonials.html"><font face="Cocogoose" color="black">TESTIMONIALS</font></a></h5>
+	    <h5 class="seventh-txt"><a style="text-decoration: none" href="contacts.html"><font face="Cocogoose" color="black">CONTACTS</font></a></h5>
+     <h5 class="eighth-txt"><a style="text-decoration: none" href="gallery.html"><font face="Cocogoose" color="black">GALLERY</font></a></h5>
+</div>
+
+<div>
+<img class="bg18" src="images/bg18.png" alt="bg" />
+<h1 class="experience"><font face="Bebas Neue" color="white">EXPERIENCE ALL CREST<br>CROSS HAS TO OFFER</font></h1>
+<h4 class="share"><font face="Century Gothic" color="white">SHARE</font></h3>
+<img class="rect" src="images/rect.jpg" alt="rect" />
+
+<a href="https://www.facebook.com">
+<img class="fb" src="images/fb.png" alt="fb" />
+</a>
+
+<a href="https://www.youtube.com">
+<img class="yt" src="images/yt.png" alt="yt" />
+</a>
+
+<a href="https://www.instagram.com">
+<img class="insta" src="images/insta.png" alt="insta" />
+</a>
+
+
+
+<div class="slideshow-container">
+
+<div class="mySlides">
+  <img src="images/product1.png" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <img src="images/product2.png" style="width:100%">
+</div>
+
+<div class="mySlides">
+  <img src="images/product3.png" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+<div>
+<img class="standard" src="images/bg19.png" alt="bg" />
+<h1 class="st1"><font face="Bebas Neue" color="white">THE CREST CROSS STANDARD</font></h1>
+<h1 class="st2"><font face="Century Gothic" color="white">A one stop place to diversify your fitness <br> 
+goals in helping you achieve them faster,  <br>
+CREST CROSS is the bridge which enables <br>
+you to reach homongous milestone.
+</font></h1>
+
+
+<h1 class="st3"><font face="Century Gothic" color="white">get the body of the dreams by<br> 
+enrolling at crest cross
+</font></h1>
+
+<a href="Contacts.html" class="st4"><font face="Century Gothic" color="black">ENQUIRE MORE</font></a>
+</div>
+
+
+<div>
+<img class="bg20" src="images/bg20.png" alt="bg" />
+<h1 class="bg20t1"><font face="Bebas Neue" color="#e9261c">SHED IT</font></h1>
+<h1 class="bg20t2"><font face="Century Gothic" color="white">A unique training programme for 24 <br>
+weeks to fulfill your needs and fitness <br>
+goals for 30 to 60 years group</font></h1>
+<img class="rec8" src="images/rec8.png" alt="rec" />
+<img class="rec8b" src="images/rec8.png" alt="rec" />
+
+<h1 class="bg20t3"><font face="Century Gothic" color="white">Personal trainers to guide<br>
+and has proven results</font></h1>
+
+<h1 class="bg20t4"><font face="Century Gothic" color="white">A certified nutritionist and<br>
+weekly nutrition consulation<br>
+that will contribute to your<br>
+transformation</font></h1>
+
+<h1 class="bg20t5"><font face="Century Gothic" color="white">Customized diet plan to<br>
+ compliment your workout<br>
+plans</font></h1>
+
+
+<h1 class="bg20t6"><font face="Century Gothic" color="white">We offer you premium <br>
+quality gym equipments and <br>
+fitness solutions </font></h1>
+
+
+<h1 class="bg20t7"><font face="Century Gothic" color="white">Fitness for swimming,<br>
+football, cardio worouts<br>
+crossfit or any other <br>
+special requirements</font></h1>
+
+<h1 class="bg20t8"><font face="Century Gothic" color="white">Joonies will be assigned<br>
+professional personal<br>
+trainer who will guide <br>
+them step by step towards <br>
+achieving there goals</font></h1>
+
+<h1 class="bg20t9"><font face="Century Gothic" color="white">Personal training on <br>
+professinal body building</font></h1>
+
+<h1 class="bg20t10"><font face="Century Gothic" color="white">Relieve any residual stress</font></h1>
+</div>
+
+<div>
+<img class="producta" src="images/producta.png" alt="product" />
+<img class="box6" src="images/box6.png" alt="box" /> 
+<h1 class="productat1"><font face="Bebas Neue" color="#e9261c">personal diet plans at crest cross</font></h1>
+<h6 class="productat2"><font face="Century Gothic" color="white">We design each plan to be optimized for you and your goals. You will<br>
+know exactly what to do every time you work out or go to the gym, and<br>
+exactly how to do it. You will no longer have to rely on luck or chance,<br>
+no more missed steps or wasted sessions. Your training is built for you<br>
+and designed to lead you to your results in a fun and effective way.</font></h6>
+</div>
+
+<!--slideshow of the above image
+<div>
+<img class="productb" src="images/productb.png" alt="product" />
+<img class="box7" src="images/box6.png" alt="box" /> 
+<h1 class="productbt1"><font face="Bebas Neue" color="#e9261c">personal training at crest cross</font></h1>
+<h6 class="productbt2"><font face="Century Gothic" color="white">You and your dedicated personal trainer will create a plan that's <br>
+tailored to your goals—and together, you'll work to unlock the results <br>
+you want. At every step of the way, you'll be driven by a passionate <br>
+trainer using the latest science during in-club sessions and at home with <br>
+Virtual Personal Training.</font></h6>
+</div>
+-->
+
+<div>
+<!--4 images slideshow-->
+<img class="outdoor" src="images/bg24.png" alt="bg" />
+<--still text on images slideshow-->
+<h1 class="spaces"><font face="Bebas Neue" color="white">PRISTINE SPACES</font></h1>
+</div>
+
+
+
+<div>
+<img class="greybg" src="images/greybg.png" alt="bg" />
+<img class="grey2bg" src="images/grey2bg.png" alt="bg" />
+<img class="redbg" src="images/redbg.png" alt="bg" />
+
+<h5 class="ft1"><a style="text-decoration: none" href="Home.html"><font face="Cocogoose" color="black">HOME</font></a></h5>
+<h5 class="ft2"><a style="text-decoration: none" href="about us.html"><font face="Cocogoose" color="black">ABOUT US</font></a></h5>
+<h5 class="ft3"><a style="text-decoration: none" href="Services.html"> <font face="Cocogoose"  color="black">SERVICES</font></a></h5>
+<h5 class="ft4"><a style="text-decoration: none" href="Products.html"><font face="Cocogoose" color="black">PRODUCTS</font></a></h5>
+<h5 class="ft5"><a style="text-decoration: none" href="Blogs.html"><font face="Cocogoose" color="black">BLOGS</font></a></h5>
+<h5 class="ft6"><a style="text-decoration: none" href="Testimonials.html" target="new"><font face="Cocogoose" color="black">TESTIMONIALS</font></a></h5>
+<h5 class="ft7"><a style="text-decoration: none" href="contacts.html"><font face="Cocogoose" color="black">CONTACTS</font></a></h5>
+<h5 class="ft8"><a style="text-decoration: none" href="gallery.html"><font face="Cocogoose" color="black">GALLERY</font></a></h5>
+
+<img class="flogo" src="images/logo2.png" alt="logo" />
+
+
+<a href="https://www.facebook.com">
+<img class="fb2" src="images/fb2.png" alt="fb" />
+</a>
+
+
+<a href="https://www.instagram.com">
+<img class="insta2" src="images/insta2.png" alt="insta" />
+</a>
+
+
+<a href="https://www.youtube.com">
+<img class="yt2" src="images/yt2.png" alt="yt" />
+</a>
+
+<img class="line3" src="images/line3.png" alt="line" />
+<img class="line4" src="images/line4.png" alt="line" />
+<h6 class="ft9"><font face="Century Gothic" color="white">Crest Cross Fit and Gym opened its doors in<br> 
+2011, targeting  ‘Fitness enthusiast’ and ‘Obese people’<br> 
+offers the most exciting and up-to-date curriculum, equipments<br>  
+and state of art gyms and training in different aspects<br>  
+of fitness industry.
+</font></h6>
+<h6 class="ft10"><font face="Cocogoose" color="white"><font face="Century Gothic" size="3.8px">54</font>A-IIND Floor, Model<br>
+town, Rewari [HR]</font></a></h6>
+<h6 class="ft11"><font face="Century Gothic" color="white">+91 | 999XX XXXXX</font></a></h6>
+<h6 class="ft12"><font face="Cocogoose" color="white">crestcross<font face="Century Gothic" size="3.8px">@</font>gmail.com</font></a></h6>
+<h6 class="ft13"><font face="Century Gothic" color="white">@2022 crestcrossgym.in. All Rights Reserved.</font></a></h6>
+<h6 class="ft14"><font face="Century Gothic" color="white">in India</font></a></h6>
+<h6 class="ft15"><font face="Century Gothic" color="white">made with</font></a></h6>
+<img class="heart" src="images/heart.png" alt="heart" />
+</div>
+
+
+
+
+
+</body>
+</html>
